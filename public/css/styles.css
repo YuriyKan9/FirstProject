@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(105, 105, 105);
+}
+li,
+a,
+button {
+    background-color: rgb(80, 80, 80);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header {
+    background: rgb(80, 80, 80);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 2%;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+.upload {
+    /* border: 1px solid dodgerblue; */
+    /* border-radius: 50px; */
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+    margin-right: 30px;
+}
+.image {
+    /* border: 1px solid dodgerblue; */
+    /* border-radius: 50px; */
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+    margin-right: 30px;
+}
+.upload:hover {
+    color: dodgerblue;
+}
+.image:hover {
+    color: dodgerblue;
+}
+.nav__links {
+    list-style: none;
+}
+.nav__links li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+.nav__links li a {
+    transition: all 0.3 ease 0s;
+}
+.nav__links li a:hover {
+    color: dodgerblue;
+}
+.contact {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: dodgerblue;
+    border: none;
+    /* border-radius: 50px; */
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
+.logout {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: dodgerblue;
+    border: none;
+    /* border-radius: 50px; */
+    cursor: pointer;
+}
+.logout:hover {
+    background-color: rgb(80, 80, 80);
+    padding: 8px 24px;
+    border: 1px solid dodgerblue;
+}
+.click p:hover {
+    cursor: pointer;
+    color: dodgerblue;
+}
+.contact:hover {
+    background-color: rgb(80, 80, 80);
+    padding: 8px 24px;
+    border: 1px solid dodgerblue;
+}
+
+.dropbtn {
+    background: none;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+}
+/* .lable {
+    color: black;
+} */
+.dropdown {
+    background-color: rgb(80, 80, 80);
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    color: white;
+    background-color: #24252a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: dodgerblue;
+    /* border-radius: 50px; */
+}
+.doggy {
+    cursor: pointer;
+}
+.doggy:hover {
+    border: dodgerblue solid 2px;
+}
+
+.header1 {
+    display: flex;
+    justify-content: flex-start;
+
+    padding: 15px 2%;
+}
